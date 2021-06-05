@@ -1,0 +1,57 @@
+.div-padre-presentacion{
+    position: relative;
+    top: 56px;
+}
+
+.presentacion{
+    background-image: url("/images/portada-con-blur.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px;
+    
+}
+
+.presentacion__img{
+    width: 300px;
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    border: 0px solid #000000;
+    z-index: 50;
+}
+
+.presentacion__texto{
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    color: white;
+    text-shadow: 1px 2px #999;
+    z-index: 50;
+}
+
+.presentacion__h2{
+    font-size: 3em;
+    z-index: 50;
+}
+
+.presentacion__p{
+    font-size: 2.5em;
+    z-index: 50;
+}
+
+.presentacion__portada{
+    position: absolute;
+    width: 100%;
+    height: 700px;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+}
+
+@media only screen and (max-width: 600px){
+    .presentacion__img{
+        width: 300px;
+    }
+}

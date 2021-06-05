@@ -1,0 +1,28 @@
+.title-s {
+    font-weight: 600;
+    color: #1e1e1e;
+    font-size: 1.1rem;
+  }
+
+.title-habilidades{
+    padding-top: 20px;
+  }
+
+  .lead{
+    font-size: 1.25rem;
+    font-weight: 300;
+  }
+
+.title-left{
+    position: relative;
+    font-size: 2em;
+}
+
+.title-left::before {
+    content: '';
+    position: absolute;
+    height: 3px;
+    background-color: #0078ff;
+    width: 100px;
+    bottom: -12px;
+}
